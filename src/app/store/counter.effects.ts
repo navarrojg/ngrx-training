@@ -5,6 +5,9 @@ import { Store } from '@ngrx/store';
 import { selectCount } from './counter.selectors';
 
 export class CounterEffects {
+  loadCount = 
+
+
   saveCount = createEffect(
     () =>
       this.actions$.pipe(
